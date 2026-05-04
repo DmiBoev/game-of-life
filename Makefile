@@ -1,8 +1,8 @@
 CC = gcc
 CFLAGS = -Wall -Werror -Wextra
 LDFLAGS = -lncurses
-SRC = playlive.c
-HEADER = playlive.h
+SRC = game_of_life.c
+HEADER = game_of_life.h
 BUILD_DIR = build
 PATTERNS_DIR = pattern
 
