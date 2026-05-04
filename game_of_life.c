@@ -1,4 +1,4 @@
-#include "playlive.h"
+#include "game_of_life.h"
 
 int main() {
     int *f1 = (int *)calloc(WIDTH * HEIGHT, sizeof(int));
