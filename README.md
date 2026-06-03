@@ -1,10 +1,10 @@
-# Game of Life (C Implementation) 🦠
+# Game of Life (C Implementation)
 
 A professional implementation of John Conway's **Game of Life**, written in C. This project demonstrates low-level system programming, memory management, and terminal-based UI rendering.
 
 ---
 
-### 🕹 Features
+### Features
 *   **Terminal Interface:** High-performance rendering using the `ncurses` library.
 *   **Custom Speed:** Real-time simulation speed adjustment.
 *   **Pattern Loading:** Support for initializing the board from external text files (located in `zagotovki/`).
@@ -12,14 +12,14 @@ A professional implementation of John Conway's **Game of Life**, written in C. T
 
 ---
 
-### 🛠 Tech Stack
+### Tech Stack
 *   **Language:** C (C11)
 *   **Library:** `ncurses`
 *   **Build Tool:** GNU Make
 
 ---
 
-### 🚀 Getting Started
+### Getting Started
 
 #### Prerequisites
 Ensure the `ncurses` library is installed:
@@ -41,7 +41,7 @@ sudo apt-get install libncurses5-dev libncursesw5-dev
 
 ---
 
-### 🎮 Usage
+### Usage
 The project includes a flexible `Makefile` to run different initial patterns easily:
 
 *   **Run Gasper:** `make run_gasper`
